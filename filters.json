@@ -8,7 +8,7 @@
       "value": "",
       "config": {
         "multiple": true,
-        "test": 42
+        "test": 42,
         "options": [
           {
             "label": "Attribué",
