@@ -7,7 +7,7 @@
       "label": "Statut",
       "value": "",
       "config": {
-        "mode": "multiple,
+        "mode": "multiple",
         "options": [
           {
             "label": "Attribué",
