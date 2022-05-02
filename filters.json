@@ -7,7 +7,7 @@
       "label": "Statut",
       "value": [],
       "validationRules": [
-        "required"
+        "required": true
       ],
       "config": {
         "mode": "multiple",
