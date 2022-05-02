@@ -41,7 +41,7 @@
       "name": "monText",
       "type": "text",
       "label": "Text",
-      "value": "",
+      "value": "Mon text",
       "validationRules": {
         "required": true
       }
