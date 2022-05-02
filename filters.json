@@ -6,9 +6,9 @@
       "type": "select",
       "label": "Statut",
       "value": [],
-      "validation": {
-        "required": true
-      },
+      "validationRules": [
+        "required"
+      ],
       "config": {
         "mode": "multiple",
         "placeholder": "Choisissez un statut",
