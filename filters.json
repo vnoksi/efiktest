@@ -28,7 +28,7 @@
       "type": "datepicker",
       "label": "Dates",
       "value": "",
-      "required: false,
+      "required": false,
       "config": {
         "range-start": "",
         "range-end": "",
