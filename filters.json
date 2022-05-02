@@ -35,6 +35,16 @@
         "range-end": "",
         "mode": "range"
       }
+    },
+    {
+      "id": "monText",
+      "name": "monText",
+      "type": "text",
+      "label": "Text",
+      "value": "",
+      "validationRules": [
+        "required"
+      ]
     }
   ]
 }
