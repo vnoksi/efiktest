@@ -6,6 +6,7 @@
       "type": "select",
       "label": "Statut",
       "value": "",
+      "required": true,
       "config": {
         "mode": "multiple",
         "placeholder": "Choisissez un statut",
@@ -27,6 +28,7 @@
       "type": "datepicker",
       "label": "Dates",
       "value": "",
+      "required: false,
       "config": {
         "range-start": "",
         "range-end": "",
