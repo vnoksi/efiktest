@@ -8,6 +8,7 @@
       "value": "",
       "config": {
         "mode": "multiple",
+        "placeholder": "Choisissez un statut"
         "options": [
           {
             "label": "Attribué",
