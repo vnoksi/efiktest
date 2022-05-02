@@ -5,7 +5,7 @@
       "name": "statut",
       "type": "select",
       "label": "Statut",
-      "value": "",
+      "value": [],
       "validation": {
         "required": true
       },
