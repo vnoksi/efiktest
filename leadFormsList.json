@@ -3,21 +3,21 @@
     {
       "id": "form1",
       "name": "forms",
-      "type": "button",
+      "type": "radioButton",
       "label": "Formulaire 1",
       "value": "form1"
     },
     {
       "id": "form2",
       "name": "forms",
-      "type": "button",
+      "type": "radioButton",
       "label": "Formulaire 2",
       "value": "form2"
     },
     {
       "id": "form3",
       "name": "forms",
-      "type": "button",
+      "type": "radioButton",
       "label": "Formulaire 3",
       "value": "form3"
     }
