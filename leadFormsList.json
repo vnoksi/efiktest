@@ -1,25 +1,28 @@
 {
   "leadFormsList": [
     {
-      "id": "form1",
+      "id": "formChoice",
       "name": "forms",
-      "type": "radioButton",
-      "label": "Formulaire 1",
-      "value": "form1"
-    },
-    {
-      "id": "form2",
-      "name": "forms",
-      "type": "radioButton",
-      "label": "Formulaire 2",
-      "value": "form2"
-    },
-    {
-      "id": "form3",
-      "name": "forms",
-      "type": "radioButton",
-      "label": "Formulaire 3",
-      "value": "form3"
+      "type": "radioButtonGroup",
+      "label": "Choississez un formulaire",
+      "value": "",
+      "radios": [
+        {
+          "id": "form1",
+          "label": "Formulaire 1",
+          "value": "form1"
+        },
+        {
+          "id": "form2",
+          "label": "Formulaire 2",
+          "value": "form2"
+        },
+        {
+          "id": "form3",
+          "label": "Formulaire 3",
+          "value": "form3"
+        }
+      ]
     }
   ]
 }
