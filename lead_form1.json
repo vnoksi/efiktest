@@ -2,50 +2,96 @@
   "id": "form1",
   "formElts": [
     {
-      "id": "statut",
-      "name": "statut",
-      "type": "select",
-      "label": "Statut",
-      "value": [],
+      "id": "lastName",
+      "name": "lastName",
+      "type": "text",
+      "label": "Nom*",
+      "value": "",
       "validationRules": {
         "required": true
-      },
+      }
+    },
+    {
+      "id": "firstName",
+      "name": "firstName",
+      "type": "text",
+      "label": "Prénom*",
+      "value": "",
+      "validationRules": {
+        "required": true
+      }
+    },
+    {
+      "id": "firstName",
+      "name": "firstName",
+      "type": "email",
+      "label": "Email*",
+      "value": "",
+      "validationRules": {
+        "required": true,
+        "isEmail": true
+      }
+    },
+    {
+      "id": "phone",
+      "name": "phone",
+      "type": "number",
+      "label": "Téléphone",
+      "value": ""
+    },
+    {
+      "id": "mobile",
+      "name": "mobile",
+      "type": "number",
+      "label": "Mobile",
+      "value": ""
+    },
+    {
+      "id": "cp",
+      "name": "cp",
+      "type": "number",
+      "label": "Code postal",
+      "value": ""
+    },
+    {
+      "id": "city",
+      "name": "city",
+      "type": "text",
+      "label": "Ville",
+      "value": ""
+    },
+    {
+      "id": "purchaseType",
+      "name": "purchaseType",
+      "type": "select",
+      "label": "Type d'achat",
+      "value": "",
       "config": {
-        "mode": "multiple",
-        "placeholder": "Choisissez un statut",
         "options": [
           {
-            "label": "Attribué",
-            "value": "assigned"
+            "label": "Résidence principale",
+            "value": "first"
           },
           {
-            "label": "Devis envoyé",
-            "value": "quoted"
+            "label": "Investissement locatif",
+            "value": "last"
           }
         ]
       }
     },
     {
-      "id": "date",
-      "name": "date",
-      "type": "datepicker",
-      "label": "Dates",
-      "value": "",
-      "config": {
-        "range-start": "",
-        "range-end": "",
-        "mode": "range"
-      }
+      "id": "ref",
+      "name": "ref",
+      "type": "text",
+      "label": "Référence",
+      "value": ""
     },
     {
-      "id": "monText",
-      "name": "monText",
-      "type": "text",
-      "label": "Text",
-      "value": "Mon text",
-      "validationRules": {
-        "required": true
-      }
+      "id": "ask",
+      "name": "ask",
+      "type": "textArea",
+      "label": "Demande",
+      "value": ""
     }
   ]
 }
