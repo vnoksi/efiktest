@@ -22,8 +22,8 @@
       }
     },
     {
-      "id": "firstName",
-      "name": "firstName",
+      "id": "email",
+      "name": "email",
       "type": "email",
       "label": "Email*",
       "value": "",
