@@ -1,5 +1,5 @@
 {
-  "leadFormsChoice": [
+  "formElts": [
     {
       "id": "formChoice",
       "name": "forms",
