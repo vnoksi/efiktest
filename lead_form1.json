@@ -50,6 +50,7 @@
       "id": "cp",
       "name": "cp",
       "type": "number",
+      "maxLength": 5
       "label": "Code postal",
       "value": ""
     },
