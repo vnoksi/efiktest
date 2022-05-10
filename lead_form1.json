@@ -55,10 +55,11 @@
       "value": ""
     },
     {
-      "id": "test",
-      "name": "test",
-      "type": "number",
-      "label": "Test",
+      "id": "test2",
+      "name": "test2",
+      "type": "text",
+      "maxLength": 5,
+      "label": "Test2",
       "value": ""
     },
     {
