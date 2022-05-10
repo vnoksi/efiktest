@@ -51,7 +51,7 @@
       "name": "cp",
       "type": "number",
       "maxLength": 5,
-      "extraClass": "cp"
+      "extraClass": "cp",
       "label": "Code postal",
       "value": ""
     },
