@@ -1,0 +1,25 @@
+{
+  "id": "form1",
+  "formElts": [
+    {
+      "id": "lastName",
+      "name": "lastName",
+      "type": "text",
+      "label": "Nom*",
+      "value": "",
+      "validationRules": {
+        "required": true
+      }
+    },
+    {
+      "id": "firstName",
+      "name": "firstName",
+      "type": "text",
+      "label": "Prénom*",
+      "value": "",
+      "validationRules": {
+        "required": true
+      }
+    }
+  ]
+}
