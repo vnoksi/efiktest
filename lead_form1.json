@@ -51,15 +51,8 @@
       "name": "cp",
       "type": "number",
       "maxLength": 5,
+      "extraClass": "cp"
       "label": "Code postal",
-      "value": ""
-    },
-    {
-      "id": "test2",
-      "name": "test2",
-      "type": "text",
-      "maxLength": 5,
-      "label": "Test2",
       "value": ""
     },
     {
