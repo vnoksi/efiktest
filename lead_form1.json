@@ -55,6 +55,13 @@
       "value": ""
     },
     {
+      "id": "test",
+      "name": "test",
+      "type": "number",
+      "label": "Test",
+      "value": ""
+    },
+    {
       "id": "city",
       "name": "city",
       "type": "text",
