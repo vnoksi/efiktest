@@ -29,7 +29,7 @@
       "value": "",
       "validationRules": {
         "required": true,
-        "isEmail": true
+        "email": true
       }
     },
     {
