@@ -49,5 +49,24 @@
         ]
       }
     },
+    {
+      "id": "purchaseType",
+      "name": "purchaseType",
+      "type": "select",
+      "label": "Type d'achat",
+      "value": "first",
+      "config": {
+        "options": [
+          {
+            "label": "Résidence principale",
+            "value": "first"
+          },
+          {
+            "label": "Investissement locatif",
+            "value": "last"
+          }
+        ]
+      }
+    }
   ]
 }
