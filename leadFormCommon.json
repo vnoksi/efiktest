@@ -33,15 +33,15 @@
             "options":[
                {
                   "label":"origine 1",
-                  "value":"commercial1"
+                  "value":"origin1"
                },
                {
                   "label":"origine 2",
-                  "value":"commercial2"
+                  "value":"origin2"
                },
                {
                   "label":"origine 2",
-                  "value":"commercial3"
+                  "value":"origin3"
                }
             ]
          }
