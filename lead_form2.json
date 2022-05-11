@@ -20,6 +20,34 @@
       "validationRules": {
         "required": true
       }
-    }
+    },
+    {
+      "id": "selectMultiple",
+      "name": "selectMultiple",
+      "type": "select",
+      "label": "Select Multiple",
+      "value": ["choice1", "choice3"],
+      "validationRules": {
+        "required": true
+      },
+      "config": {
+        "mode": "multiple",
+        "placeholder": "Choisissez",
+        "options": [
+          {
+            "label": "Choix 1",
+            "value": "choice1"
+          },
+          {
+            "label": "Choix 2",
+            "value": "choice2"
+          },
+          {
+            "label": "Choix 3",
+            "value": "choice3"
+          },
+        ]
+      }
+    },
   ]
 }
