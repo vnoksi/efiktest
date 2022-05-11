@@ -67,6 +67,18 @@
           }
         ]
       }
+    },
+    {
+      "id": "date",
+      "name": "date",
+      "type": "datepicker",
+      "label": "Dates",
+      "value": "22/05/2022",
+      "config": {
+        "range-start": "",
+        "range-end": "",
+        "mode": "range"
+      }
     }
   ]
 }
