@@ -5,7 +5,7 @@
       "id": "lastName",
       "name": "lastName",
       "type": "text",
-      "label": "Nom*",
+      "label": "Nom",
       "value": "",
       "validationRules": {
         "required": true
@@ -15,7 +15,7 @@
       "id": "firstName",
       "name": "firstName",
       "type": "text",
-      "label": "Prénom*",
+      "label": "Prénom",
       "value": "",
       "validationRules": {
         "required": true
