@@ -1,5 +1,5 @@
 {
-  leads: [
+  "leads": [
     {
       "id": "lead1",
       "contactInformation": {
