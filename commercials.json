@@ -1,0 +1,40 @@
+{
+  "commercials": [
+    {
+      "id": "jeanDupont",
+      "label": "Jean Dupont"
+    },
+    {
+      "id": "bertrandTest",
+      "label": "Bertrand Test"
+    },
+    {
+      "id": "JulienPtisecks",
+      "label": "Julien PtiSecks"
+    },
+    {
+      "id": "DominiqueBrassens",
+      "label": "DominiqueBrassens"
+    },
+    {
+      "id": "DamienRoule",
+      "label": "Damien Roule"
+    },
+    {
+      "id": "Commercial6",
+      "label": "Commercial 6"
+    },
+    {
+      "id": "Commercial7",
+      "label": "Commercial 7"
+    },
+    {
+      "id": "Commercial8",
+      "label": "Commercial 8"
+    },
+    {
+      "id": "Commercial9",
+      "label": "Commercial 9"
+    }
+   ]
+}
