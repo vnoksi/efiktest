@@ -2,7 +2,7 @@
    "leads":[
       {
          "id":"lead1",
-         "timestamp":"1652444260",
+         "timestamp":1652444260000,
          "contactInformation":{
             "lastName":"Durant",
             "firstName":"Jean",
@@ -17,7 +17,7 @@
       },
       {
          "id":"lead2",
-         "timestamp":"1650025060",
+         "timestamp":1650025060000,
          "contactInformation":{
             "lastName":"",
             "firstName":"",
@@ -33,7 +33,7 @@
       },
       {
          "id":"lead3",
-         "timestamp":"1644931060",
+         "timestamp":1644931060000,
          "contactInformation":{
             "lastName":"Poilau",
             "firstName":"Dos",
