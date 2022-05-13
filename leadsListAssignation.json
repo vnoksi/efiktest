@@ -1,47 +1,47 @@
 {
-  "leads": [
-    {
-      "id": "lead1",
-      "contactInformation": {
-        "lastName": "Dupont",
-        "firstName": "Jean",
-        "phone": "",
-        "email": ""
+   "leads":[
+      {
+         "id":"lead1",
+         "contactInformation":{
+            "lastName":"Durant",
+            "firstName":"Jean",
+            "phone":"",
+            "email":""
+         },
+         "leadDescription":{
+            "monInfo1":"Info relative au lead"
+         },
+         "cp":"75000",
+         "link":""
       },
-      "leadDescription": {
-        "monInfo1": "Info relative au lead"
+      {
+         "id":"lead2",
+         "contactInformation":{
+            "lastName":"",
+            "firstName":"",
+            "phone":"02 02 02 02 02",
+            "email":"test@test.fr"
+         },
+         "leadDescription":{
+            "monInfo1":"Info relative au lead",
+            "monInfo2":"Autre info"
+         },
+         "cp":"35000",
+         "link":""
       },
-      "cp": "75000",
-      "link": ""
-    },
-    {
-      "id": "lead2",
-      "contactInformation": {
-        "lastName": "",
-        "firstName": "",
-        "phone": "02 02 02 02 02",
-        "email": "test@test.fr"
-      },
-      "leadDescription": {
-        "monInfo1": "Info relative au lead",
-        "monInfo2": "Autre info",
-      },
-      "cp": "35000",
-      "link": ""
-    },
-    {
-      "id": "lead3",
-      "contactInformation": {
-        "lastName": "Poilau",
-        "firstName": "Dos",
-        "phone": "01 01 01 01 01",
-        "email": ""
-      },
-      "leadDescription": {
-        "monInfo1": "Info relative au lead"
-      },
-      "cp": "12000",
-      "link": ""
-    }
-  ]
+      {
+         "id":"lead3",
+         "contactInformation":{
+            "lastName":"Poilau",
+            "firstName":"Dos",
+            "phone":"01 01 01 01 01",
+            "email":""
+         },
+         "leadDescription":{
+            "monInfo1":"Info relative au lead"
+         },
+         "cp":"12000",
+         "link":""
+      }
+   ]
 }
