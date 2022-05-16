@@ -195,7 +195,11 @@
     "archived": false,
     "isSpam": false,
     "nbRdv": 1,
-    "status": "Devis envoyé"
+    "status": "Devis envoyé",
+    "object": {
+      "label": "Produit",
+      "value": "Fenêtres PVC x5"
+    }
   },
   "leadEvents": {
     "events": [
