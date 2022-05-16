@@ -1,0 +1,540 @@
+{
+  "formElts": [
+    {
+      "id": "lastName",
+      "name": "lastName",
+      "type": "text",
+      "label": "Nom",
+      "value": "Brown"
+    },
+    {
+      "id": "firstname",
+      "name": "firstname",
+      "type": "text",
+      "label": "Nom",
+      "value": "Jean-Didier"
+    },
+    {
+      "id": "phone",
+      "name": "phone",
+      "type": "number",
+      "label": "Téléphone",
+      "value": "0626273318"
+    },
+    {
+      "id": "mobile",
+      "name": "mobile",
+      "type": "number",
+      "label": "Mobile",
+      "value": null
+    },
+    {
+      "id": "email",
+      "name": "email",
+      "type": "email",
+      "label": "Email",
+      "value": "AB@testing.fr",
+      "validationRules": {
+        "required": true,
+        "email": true
+      }
+    },
+    {
+      "id": "zipcode",
+      "name": "zipcode",
+      "type": "number",
+      "maxLength": 5,
+      "extraClass": "cp",
+      "label": "Code postal",
+      "value": "69302"
+    },
+    {
+      "id": "city",
+      "name": "city",
+      "type": "text",
+      "label": "Ville",
+      "value": "Souffelweyersheim"
+    },
+    {
+      "id": "product",
+      "name": "product",
+      "type": "select",
+      "label": "Produit",
+      "value": ["t3loc"],
+      "validationRules": {
+        "required": true
+      },
+      "config": {
+        "mode": "multiple",
+        "options": [
+          {
+            "label": "Bureau",
+            "value": "bureau"
+          },
+          {
+            "label": "T3 Loc",
+            "value": "t3loc"
+          },
+          {
+            "label": "T4",
+            "value": "t4"
+          },
+          {
+            "label": "T5",
+            "value": "t5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "askfor",
+      "name": "askfor",
+      "type": "textArea",
+      "label": "Demande",
+      "value": null
+    },
+    {
+      "id": "legalBasis",
+      "name": "legalBasis",
+      "type": "select",
+      "label": "Base légale",
+      "disabled": true,
+      "value": "",
+      "config": {
+        "options": [
+          {
+            "label": "Aucune",
+            "value": "none"
+          },
+          {
+            "label": "Intérêt légitime",
+            "value": "legit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "typeAchat",
+      "name": "typeAchat",
+      "type": "select",
+      "label": "Type d'achat",
+      "disabled": true,
+      "value": "Habiter",
+      "config": {
+        "options": [
+          {
+            "label": "Habiter",
+            "value": "Habiter"
+          },
+          {
+            "label": "Investir",
+            "value": "Investir"
+          }
+        ]
+      }
+    },
+    {
+      "id": "referenceProgramme",
+      "name": "referenceProgramme",
+      "type": "text",
+      "label": "Référence programme",
+      "value": "255"
+    },
+    {
+      "id": "seller",
+      "name": "seller",
+      "type": "select",
+      "label": "Assigné à",
+      "disabled": true,
+      "value": 111,
+      "config": {
+        "options": [
+          {
+            "label": "5 Commercial",
+            "value": 111
+          },
+          {
+            "label": "12 Commercial",
+            "value": 120
+          }
+        ]
+      }
+    },
+    {
+      "id": "sector",
+      "name": "sector",
+      "type": "select",
+      "label": "Secteur",
+      "disabled": true,
+      "value": 18,
+      "config": {
+        "options": [
+          {
+            "label": "Nord-Est",
+            "value": 18
+          },
+          {
+            "label": "Ouest",
+            "value": 14
+          }
+        ]
+      }
+    }
+  ],
+  "leadData": {
+    "amount": 250000,
+    "contactedAt": "2022-01-28T18:00:00+01:00",
+    "lastEventAt": "2022-04-26T15:06:45+02:00",
+    "quotedAt": null,
+    "lastRdvAt": "2022-04-26T09:00:00+02:00",
+    "lastRdvStatus": "honored",
+    "seller": {
+      "fullname": "Commercial 5"
+    },
+    "sql": true,
+    "archived": false,
+    "isSpam": false,
+    "nbRdv": 1,
+    "status": "Devis envoyé"
+  },
+  "leadEvents": {
+    "events": [
+      {
+        "id": 3076,
+        "owner": {
+          "fullname": "Jean-Marie Dupond"
+        },
+        "type": "activity",
+        "activity": "event-reported",
+        "mode": null,
+        "label": "Compte-rendu de rdv effectué",
+        "comment": "test test test",
+        "reporting": null,
+        "address": null,
+        "eventAt": "26-04-2022 15:06",
+        "reportedAt": null,
+        "cancelledAt": null,
+        "statusAfter": null,
+        "honored": false,
+        "amount": null,
+        "title": "Compte-rendu de rdv effectué",
+        "vueStatus": "cancelled",
+        "redate": 0,
+        "style": "primary",
+        "fastedit": false
+      },
+      {
+        "id": 3045,
+        "owner": {
+          "fullname": "Responsable 2"
+        },
+        "type": "activity",
+        "activity": "event-missed",
+        "mode": null,
+        "label": "Le rdv a été manqué",
+        "comment": null,
+        "reporting": null,
+        "address": null,
+        "eventAt": "26-04-2022 10:23",
+        "reportedAt": null,
+        "cancelledAt": null,
+        "statusAfter": null,
+        "honored": false,
+        "amount": null,
+        "title": "Le rdv a été manqué",
+        "vueStatus": "cancelled",
+        "redate": 0,
+        "style": "primary",
+        "fastedit": false
+      },
+      {
+        "id": 3041,
+        "owner": {
+          "fullname": "Responsable 2"
+        },
+        "type": "activity",
+        "activity": "event-reported",
+        "mode": null,
+        "label": "Compte-rendu de rdv effectué",
+        "comment": "BON RDV\nFINALEMENT",
+        "reporting": null,
+        "address": null,
+        "eventAt": "26-04-2022 10:22",
+        "reportedAt": null,
+        "cancelledAt": null,
+        "statusAfter": null,
+        "honored": false,
+        "amount": "250000.00",
+        "title": "Compte-rendu de rdv effectué",
+        "vueStatus": "cancelled",
+        "redate": 0,
+        "style": "primary",
+        "fastedit": false
+      },
+      {
+        "id": 3015,
+        "owner": {
+          "fullname": "Jean-Marie Dupond"
+        },
+        "type": "activity",
+        "activity": "sql-marked",
+        "mode": null,
+        "label": "Contact qualifié en SQL",
+        "comment": null,
+        "reporting": null,
+        "address": null,
+        "eventAt": "26-04-2022 09:52",
+        "reportedAt": null,
+        "cancelledAt": null,
+        "statusAfter": null,
+        "honored": false,
+        "amount": "0.00",
+        "title": "Contact qualifié en SQL",
+        "vueStatus": "cancelled",
+        "redate": 0,
+        "style": "primary",
+        "fastedit": false
+      },
+      {
+        "id": 3014,
+        "owner": {
+          "fullname": "Jean-Marie Dupond"
+        },
+        "type": "activity",
+        "activity": "sql-marked",
+        "mode": null,
+        "label": "Annulation: Contact qualifié en SQL",
+        "comment": null,
+        "reporting": null,
+        "address": null,
+        "eventAt": "26-04-2022 09:52",
+        "reportedAt": null,
+        "cancelledAt": null,
+        "statusAfter": null,
+        "honored": false,
+        "amount": "0.00",
+        "title": "Annulation: Contact qualifié en SQL",
+        "vueStatus": "cancelled",
+        "redate": 0,
+        "style": "primary",
+        "fastedit": false
+      },
+      {
+        "id": 3040,
+        "type": "rdv",
+        "activity": null,
+        "mode": "rdv",
+        "label": "rdv servon",
+        "comment": "RDV SERVON SUR VILAINE etre te",
+        "eventAt": "26-04-2022 09:00",
+        "cancelledAt": null,
+        "honored": true,
+        "address": "105 LA BOURDONNAIS \n35250 LA MEZIERE",
+        "amount": "250000.00",
+        "reporting": "test test test",
+        "reportedAt": "26-04-2022 15:06",
+        "statusAfter": null,
+        "owner": {
+          "fullname": "Jean-Marie Dupond"
+        },
+        "title": "rdv servon",
+        "vueStatus": "honored",
+        "redate": 0,
+        "style": "warning",
+        "fastedit": false
+      },
+      {
+        "id": 2988,
+        "owner": {
+          "fullname": "Jean-Marie Dupond"
+        },
+        "type": "activity",
+        "activity": "sql-marked",
+        "mode": null,
+        "label": "Contact qualifié en SQL",
+        "comment": null,
+        "reporting": null,
+        "address": null,
+        "eventAt": "08-04-2022 11:17",
+        "reportedAt": null,
+        "cancelledAt": null,
+        "statusAfter": null,
+        "honored": false,
+        "amount": "0.00",
+        "title": "Contact qualifié en SQL",
+        "vueStatus": "cancelled",
+        "redate": 0,
+        "style": "primary",
+        "fastedit": false
+      },
+      {
+        "id": 2835,
+        "owner": {
+          "fullname": "Jean-Marie Dupond"
+        },
+        "type": "rdv",
+        "activity": null,
+        "mode": "rdv",
+        "label": null,
+        "comment": null,
+        "reporting": null,
+        "address": null,
+        "eventAt": "31-03-2022 09:00",
+        "reportedAt": null,
+        "cancelledAt": "29-03-2022 11:55",
+        "statusAfter": null,
+        "honored": false,
+        "amount": null,
+        "title": "Rendez-vous physique",
+        "vueStatus": "cancelled",
+        "redate": 0,
+        "style": "warning",
+        "fastedit": false
+      },
+      {
+        "id": 2836,
+        "owner": {
+          "fullname": "Jean-Marie Dupond"
+        },
+        "type": "activity",
+        "activity": "event-cancelled",
+        "mode": null,
+        "label": "Le rdv a été annulé",
+        "comment": null,
+        "reporting": null,
+        "address": null,
+        "eventAt": "29-03-2022 11:55",
+        "reportedAt": null,
+        "cancelledAt": null,
+        "statusAfter": null,
+        "honored": false,
+        "amount": null,
+        "title": "Le rdv a été annulé",
+        "vueStatus": "cancelled",
+        "redate": 0,
+        "style": "primary",
+        "fastedit": false
+      },
+      {
+        "id": 2834,
+        "owner": {
+          "fullname": "Jean-Marie Dupond"
+        },
+        "type": "activity",
+        "activity": "event-cancelled",
+        "mode": null,
+        "label": "Le rdv a été annulé",
+        "comment": null,
+        "reporting": null,
+        "address": null,
+        "eventAt": "29-03-2022 11:54",
+        "reportedAt": null,
+        "cancelledAt": null,
+        "statusAfter": null,
+        "honored": false,
+        "amount": null,
+        "title": "Le rdv a été annulé",
+        "vueStatus": "cancelled",
+        "redate": 0,
+        "style": "primary",
+        "fastedit": false
+      },
+      {
+        "id": 2151,
+        "type": "rdv",
+        "activity": null,
+        "mode": "rdv",
+        "label": null,
+        "comment": null,
+        "eventAt": "28-01-2022 18:00",
+        "cancelledAt": "29-03-2022 11:54",
+        "honored": false,
+        "address": null,
+        "amount": null,
+        "reporting": null,
+        "reportedAt": null,
+        "statusAfter": null,
+        "owner": {
+          "fullname": "Sonia Housni"
+        },
+        "title": "Rendez-vous physique",
+        "vueStatus": "cancelled",
+        "redate": 0,
+        "style": "warning",
+        "fastedit": false
+      },
+      {
+        "id": 1558,
+        "owner": {
+          "fullname": "Sonia Housni"
+        },
+        "type": "rdv",
+        "activity": null,
+        "mode": "visio",
+        "label": null,
+        "comment": null,
+        "reporting": null,
+        "address": null,
+        "eventAt": "29-12-2021 09:00",
+        "reportedAt": null,
+        "cancelledAt": null,
+        "statusAfter": null,
+        "honored": false,
+        "amount": null,
+        "title": "Appel visio",
+        "vueStatus": "missed",
+        "redate": 0,
+        "style": "warning",
+        "fastedit": false
+      },
+      {
+        "id": 1559,
+        "owner": {
+          "fullname": "Sonia Housni"
+        },
+        "type": "activity",
+        "activity": "estimated",
+        "mode": null,
+        "label": null,
+        "comment": null,
+        "reporting": null,
+        "address": null,
+        "eventAt": "28-12-2021 17:19",
+        "reportedAt": null,
+        "cancelledAt": null,
+        "statusAfter": null,
+        "honored": false,
+        "amount": "110000.00",
+        "title": "Saisie estimation",
+        "vueStatus": "cancelled",
+        "redate": 0,
+        "style": "primary",
+        "fastedit": false
+      },
+      {
+        "id": 332,
+        "owner": {
+          "fullname": "Sonia Housni"
+        },
+        "type": "activity",
+        "activity": "assigned",
+        "mode": null,
+        "label": "Affaire assignée",
+        "comment": null,
+        "reporting": null,
+        "address": null,
+        "eventAt": "11-10-2021 10:54",
+        "reportedAt": null,
+        "cancelledAt": null,
+        "statusAfter": "assigned",
+        "honored": false,
+        "amount": "0.00",
+        "title": "Affaire assignée",
+        "vueStatus": "cancelled",
+        "redate": 0,
+        "style": "primary",
+        "fastedit": false
+      }
+    ]
+  }
+}
