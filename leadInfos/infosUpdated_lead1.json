@@ -1,186 +1,192 @@
 {
-  "formElts": [
-    {
-      "id": "lastName",
-      "name": "lastName",
-      "type": "text",
-      "label": "Nom",
-      "value": "Brown"
-    },
-    {
-      "id": "firstname",
-      "name": "firstname",
-      "type": "text",
-      "label": "Nom",
-      "value": "Jean-Didier"
-    },
-    {
-      "id": "phone",
-      "name": "phone",
-      "type": "number",
-      "label": "Téléphone",
-      "value": "0626273318"
-    },
-    {
-      "id": "mobile",
-      "name": "mobile",
-      "type": "number",
-      "label": "Mobile",
-      "value": null
-    },
-    {
-      "id": "email",
-      "name": "email",
-      "type": "email",
-      "label": "Email",
-      "value": "AB@testing.fr",
-      "validationRules": {
-        "required": true,
-        "email": true
-      }
-    },
-    {
-      "id": "zipcode",
-      "name": "zipcode",
-      "type": "number",
-      "maxLength": 5,
-      "extraClass": "cp",
-      "label": "Code postal",
-      "value": "69302"
-    },
-    {
-      "id": "city",
-      "name": "city",
-      "type": "text",
-      "label": "Ville",
-      "value": "Souffelweyersheim"
-    },
-    {
-      "id": "product",
-      "name": "product",
-      "type": "select",
-      "label": "Produit",
-      "value": ["t3loc"],
-      "validationRules": {
-        "required": true
+  "leadContactInformation": {
+    "formElts": [
+      {
+        "id": "lastName",
+        "name": "lastName",
+        "type": "text",
+        "label": "Nom",
+        "value": "Brown"
       },
-      "config": {
-        "mode": "multiple",
-        "options": [
-          {
-            "label": "Bureau",
-            "value": "bureau"
-          },
-          {
-            "label": "T3 Loc",
-            "value": "t3loc"
-          },
-          {
-            "label": "T4",
-            "value": "t4"
-          },
-          {
-            "label": "T5",
-            "value": "t5"
-          }
-        ]
+      {
+        "id": "firstname",
+        "name": "firstname",
+        "type": "text",
+        "label": "Nom",
+        "value": "Jean-Didier"
+      },
+      {
+        "id": "phone",
+        "name": "phone",
+        "type": "number",
+        "label": "Téléphone",
+        "value": "0626273318"
+      },
+      {
+        "id": "mobile",
+        "name": "mobile",
+        "type": "number",
+        "label": "Mobile",
+        "value": null
+      },
+      {
+        "id": "email",
+        "name": "email",
+        "type": "email",
+        "label": "Email",
+        "value": "AB@testing.fr",
+        "validationRules": {
+          "required": true,
+          "email": true
+        }
+      },
+      {
+        "id": "zipcode",
+        "name": "zipcode",
+        "type": "number",
+        "maxLength": 5,
+        "extraClass": "cp",
+        "label": "Code postal",
+        "value": "69302"
+      },
+      {
+        "id": "city",
+        "name": "city",
+        "type": "text",
+        "label": "Ville",
+        "value": "Souffelweyersheim"
       }
-    },
-    {
-      "id": "askfor",
-      "name": "askfor",
-      "type": "textArea",
-      "label": "Demande",
-      "value": null
-    },
-    {
-      "id": "legalBasis",
-      "name": "legalBasis",
-      "type": "select",
-      "label": "Base légale",
-      "disabled": true,
-      "value": "",
-      "config": {
-        "options": [
-          {
-            "label": "Aucune",
-            "value": "none"
-          },
-          {
-            "label": "Intérêt légitime",
-            "value": "legit"
-          }
-        ]
+    ]
+  },
+  "leadProject": {
+    "formElts": [
+      {
+        "id": "product",
+        "name": "product",
+        "type": "select",
+        "label": "Produit",
+        "value": ["t3loc"],
+        "validationRules": {
+          "required": true
+        },
+        "config": {
+          "mode": "multiple",
+          "options": [
+            {
+              "label": "Bureau",
+              "value": "bureau"
+            },
+            {
+              "label": "T3 Loc",
+              "value": "t3loc"
+            },
+            {
+              "label": "T4",
+              "value": "t4"
+            },
+            {
+              "label": "T5",
+              "value": "t5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "askfor",
+        "name": "askfor",
+        "type": "textArea",
+        "label": "Demande",
+        "value": null
+      },
+      {
+        "id": "legalBasis",
+        "name": "legalBasis",
+        "type": "select",
+        "label": "Base légale",
+        "disabled": true,
+        "value": "",
+        "config": {
+          "options": [
+            {
+              "label": "Aucune",
+              "value": "none"
+            },
+            {
+              "label": "Intérêt légitime",
+              "value": "legit"
+            }
+          ]
+        }
+      },
+      {
+        "id": "typeAchat",
+        "name": "typeAchat",
+        "type": "select",
+        "label": "Type d'achat",
+        "disabled": true,
+        "value": "Habiter",
+        "config": {
+          "options": [
+            {
+              "label": "Habiter",
+              "value": "Habiter"
+            },
+            {
+              "label": "Investir",
+              "value": "Investir"
+            }
+          ]
+        }
+      },
+      {
+        "id": "referenceProgramme",
+        "name": "referenceProgramme",
+        "type": "text",
+        "label": "Référence programme",
+        "value": "255"
+      },
+      {
+        "id": "seller",
+        "name": "seller",
+        "type": "select",
+        "label": "Assigné à",
+        "disabled": true,
+        "value": 111,
+        "config": {
+          "options": [
+            {
+              "label": "5 Commercial",
+              "value": 111
+            },
+            {
+              "label": "12 Commercial",
+              "value": 120
+            }
+          ]
+        }
+      },
+      {
+        "id": "sector",
+        "name": "sector",
+        "type": "select",
+        "label": "Secteur",
+        "disabled": true,
+        "value": 18,
+        "config": {
+          "options": [
+            {
+              "label": "Nord-Est",
+              "value": 18
+            },
+            {
+              "label": "Ouest",
+              "value": 14
+            }
+          ]
+        }
       }
-    },
-    {
-      "id": "typeAchat",
-      "name": "typeAchat",
-      "type": "select",
-      "label": "Type d'achat",
-      "disabled": true,
-      "value": "Habiter",
-      "config": {
-        "options": [
-          {
-            "label": "Habiter",
-            "value": "Habiter"
-          },
-          {
-            "label": "Investir",
-            "value": "Investir"
-          }
-        ]
-      }
-    },
-    {
-      "id": "referenceProgramme",
-      "name": "referenceProgramme",
-      "type": "text",
-      "label": "Référence programme",
-      "value": "255"
-    },
-    {
-      "id": "seller",
-      "name": "seller",
-      "type": "select",
-      "label": "Assigné à",
-      "disabled": true,
-      "value": 111,
-      "config": {
-        "options": [
-          {
-            "label": "5 Commercial",
-            "value": 111
-          },
-          {
-            "label": "12 Commercial",
-            "value": 120
-          }
-        ]
-      }
-    },
-    {
-      "id": "sector",
-      "name": "sector",
-      "type": "select",
-      "label": "Secteur",
-      "disabled": true,
-      "value": 18,
-      "config": {
-        "options": [
-          {
-            "label": "Nord-Est",
-            "value": 18
-          },
-          {
-            "label": "Ouest",
-            "value": 14
-          }
-        ]
-      }
-    }
-  ],
+    ]
+  },
   "leadData": {
     "fullName": "Jean DURAND",
     "amount": 100000,
