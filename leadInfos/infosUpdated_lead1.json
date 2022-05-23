@@ -193,7 +193,7 @@
       "fullname": "Commercial 5"
     },
     "sql": true,
-    "archived": false,
+    "archived": true,
     "isSpam": false,
     "nbRdv": 1,
     "status": "Devis envoyé",
