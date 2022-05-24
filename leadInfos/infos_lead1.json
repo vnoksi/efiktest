@@ -65,7 +65,7 @@
         "name": "product",
         "type": "select",
         "label": "Produit",
-        "value": ["t3loc"],
+        "value": ["bureau", "t3loc"],
         "validationRules": {
           "required": true
         },
