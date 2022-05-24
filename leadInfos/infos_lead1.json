@@ -189,6 +189,8 @@
   },
   "leadData": {
     "fullName": "Jean DURAND",
+    "phone": "0101010101",
+    "email": "AB@testing.fr",
     "amount": 250000,
     "contactedAt": "2022-01-28T18:00:00+01:00",
     "lastEventAt": "2022-04-26T15:06:45+02:00",
