@@ -12,7 +12,7 @@
         "id": "firstname",
         "name": "firstname",
         "type": "text",
-        "label": "Nom",
+        "label": "Prénom",
         "value": "Jean-Didier"
       },
       {
