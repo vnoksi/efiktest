@@ -12,8 +12,7 @@
          "leadDescription":{
             "monInfo1":"Info relative au lead"
          },
-         "cp":"75000",
-         "link":""
+         "cp":"75000"
       },
       {
          "id":"lead2",
@@ -28,8 +27,7 @@
             "monInfo1":"Info relative au lead",
             "monInfo2":"Autre info"
          },
-         "cp":"35000",
-         "link":""
+         "cp":"35000"
       },
       {
          "id":"lead3",
@@ -43,8 +41,7 @@
          "leadDescription":{
             "monInfo1":"Info relative au lead"
          },
-         "cp":"12000",
-         "link":""
+         "cp":"12000"
       }
    ]
 }
