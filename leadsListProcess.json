@@ -3,7 +3,7 @@
       {
          "id":"lead1",
          "date":"2022-05-13T12:17:40.000Z",
-        "sql": true,
+         "sql": true,
          "status": "Devis envoyé",
          "statusValue": "quoted",
          "contactInformation":{
@@ -18,7 +18,7 @@
       {
          "id":"lead2",
          "date":"2022-04-15T12:17:40.000Z",
-        "sql": false,
+         "sql": false,
          "status": "Attribué",
          "statusValue": "assigned",
          "contactInformation":{
@@ -33,7 +33,7 @@
       {
          "id":"lead3",
          "date":"2022-02-15T13:17:40.000Z",
-        "sql": false,
+         "sql": false,
          "status": "Devis envoyé",
          "statusValue": "quoted",
          "contactInformation":{
