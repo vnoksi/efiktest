@@ -4,43 +4,46 @@
          "id":"lead1",
          "date":"2022-05-13T12:17:40.000Z",
         "sql" true,
+         "status": "Devis envoyé",
+         "statusValue": "quoted",
          "contactInformation":{
             "lastName":"Durant",
             "firstName":"Jean",
             "phone":"",
             "email":""
          },
-         "leadDescription":{
-            "lastRdvAt": "2022-04-26T09:00:00+02:00"
-         }
+         "lastEvent": "7 jour(s)",
+         "lastEventInDays": 7
       },
       {
          "id":"lead2",
          "date":"2022-04-15T12:17:40.000Z",
         "sql" false,
+         "status": "Attribué",
+         "statusValue": "assigned",
          "contactInformation":{
             "lastName":"",
             "firstName":"",
             "phone":"02 02 02 02 02",
             "email":"test@test.fr"
          },
-         "leadDescription":{
-            "lastRdvAt": "2022-04-26T09:00:00+02:00"
-         }
+         "lastEvent": "88 jour(s)",
+         "lastEventInDays": 88
       },
       {
          "id":"lead3",
          "date":"2022-02-15T13:17:40.000Z",
         "sql" false,
+         "status": "Devis envoyé",
+         "statusValue": "quoted",
          "contactInformation":{
             "lastName":"Poilau",
             "firstName":"Dos",
             "phone":"01 01 01 01 01",
             "email":""
          },
-         "leadDescription":{
-            "lastRdvAt": "2022-04-26T09:00:00+02:00"
-         }
+         "lastEvent": "121 jour(s)",
+         "lastEventInDays": 121
       }
    ]
 }
