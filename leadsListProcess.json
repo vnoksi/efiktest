@@ -1,0 +1,47 @@
+{
+   "leads":[
+      {
+         "id":"lead1",
+         "date":"2022-05-13T12:17:40.000Z",
+        "sql" true,
+         "contactInformation":{
+            "lastName":"Durant",
+            "firstName":"Jean",
+            "phone":"",
+            "email":""
+         },
+         "leadDescription":{
+            "monInfo1":"Info relative au lead"
+         }
+      },
+      {
+         "id":"lead2",
+         "date":"2022-04-15T12:17:40.000Z",
+        "sql" false,
+         "contactInformation":{
+            "lastName":"",
+            "firstName":"",
+            "phone":"02 02 02 02 02",
+            "email":"test@test.fr"
+         },
+         "leadDescription":{
+            "monInfo1":"Info relative au lead",
+            "monInfo2":"Autre info"
+         }
+      },
+      {
+         "id":"lead3",
+         "date":"2022-02-15T13:17:40.000Z",
+        "sql" false,
+         "contactInformation":{
+            "lastName":"Poilau",
+            "firstName":"Dos",
+            "phone":"01 01 01 01 01",
+            "email":""
+         },
+         "leadDescription":{
+            "monInfo1":"Info relative au lead"
+         }
+      }
+   ]
+}
