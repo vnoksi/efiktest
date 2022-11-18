@@ -1,47 +1,317 @@
 {
-   "leads":[
+   "links": {
+    "self": "\/api\/leads\/assign"
+  },
+  "meta": {
+    "totalItems": 12,
+    "fields": [
       {
-         "id":"lead1",
-         "date":"2022-05-13T12:17:40.000Z",
-         "contactInformation":{
-            "lastName":"Durant",
-            "firstName":"Jean",
-            "phone":"",
-            "email":""
-         },
-         "leadDescription":{
-            "monInfo1":"Info relative au lead"
-         },
-         "cp":"75000"
+        "visible": false,
+        "sortable": false,
+        "field": "assigned"
       },
       {
-         "id":"lead2",
-         "date":"2022-04-15T12:17:40.000Z",
-         "contactInformation":{
-            "lastName":"",
-            "firstName":"",
-            "phone":"02 02 02 02 02",
-            "email":"test@test.fr"
-         },
-         "leadDescription":{
-            "monInfo1":"Info relative au lead",
-            "monInfo2":"Autre info"
-         },
-         "cp":"35000"
+        "visible": false,
+        "sortable": false,
+        "field": "read"
       },
       {
-         "id":"lead3",
-         "date":"2022-02-15T13:17:40.000Z",
-         "contactInformation":{
-            "lastName":"Poilau",
-            "firstName":"Dos",
-            "phone":"01 01 01 01 01",
-            "email":""
-         },
-         "leadDescription":{
-            "monInfo1":"Info relative au lead"
-         },
-         "cp":"12000"
+        "visible": false,
+        "sortable": false,
+        "field": "id"
+      },
+      {
+        "visible": true,
+        "title": "",
+        "formatter": "flag",
+        "cardVisible": false,
+        "cellStyle": "bg",
+        "sortable": false,
+        "field": "flag"
+      },
+      {
+        "title": "Nom Prénom",
+        "sortable": true,
+        "useAsCardTitle": true,
+        "visible": true,
+        "field": "name"
+      },
+      {
+        "title": "Produit",
+        "formatter": "productList",
+        "class": "text-left",
+        "sortable": false,
+        "visible": true,
+        "field": "product"
+      },
+      {
+        "title": "Code postal",
+        "sortable": false,
+        "visible": true,
+        "field": "zipcode"
+      },
+      {
+        "title": "Secteur",
+        "cardVisible": false,
+        "sortable": true,
+        "visible": true,
+        "field": "sector"
+      },
+      {
+        "title": "Date d\u0027entrée",
+        "sortable": true,
+        "sorter": "date",
+        "useAsCardDate": true,
+        "visible": true,
+        "field": "entryDate"
+      },
+      {
+        "title": "Assigné à",
+        "cardVisible": false,
+        "cellStyle": "bg",
+        "sortable": false,
+        "visible": true,
+        "field": "assignement"
+      },
+      {
+        "title": "Evénement",
+        "cardVisible": false,
+        "cellStyle": "bg",
+        "sortable": false,
+        "visible": true,
+        "field": "lastEventLabel"
+      },
+      {
+        "title": "Statut",
+        "sortable": true,
+        "formatter": "leadStatus",
+        "cellStyle": "bg",
+        "visible": true,
+        "field": "status"
       }
-   ]
+    ]
+  },
+   "data": [
+    {
+      "id": "\/api\/leads\/1976",
+      "type": "Lead",
+      "attributes": {
+        "assigned": false,
+        "read": false,
+        "id": 1976,
+        "flag": "",
+        "name": "Olive Maud",
+        "product": [
+          {
+            "category": "Investissement locatif",
+            "product": "T2"
+          }
+        ],
+        "zipcode": "44000",
+        "sector": "nc",
+        "entryDate": "2022-07-13T08:43:19Z",
+        "assignement": "\u003Cspan class=\u0022assignement\u0022\u003EChoisir\u003C\/span\u003E",
+        "lastEventLabel": "",
+        "status": "Nouveau"
+      }
+    },
+    {
+      "id": "\/api\/leads\/1995",
+      "type": "Lead",
+      "attributes": {
+        "assigned": false,
+        "read": false,
+        "id": 1995,
+        "flag": "",
+        "name": "Ramey cécile",
+        "product": [],
+        "zipcode": "44000",
+        "sector": "nc",
+        "entryDate": "2022-07-13T08:53:21Z",
+        "assignement": "\u003Cspan class=\u0022assignement\u0022\u003EChoisir\u003C\/span\u003E",
+        "lastEventLabel": "Saisie estimation",
+        "status": "Nouveau"
+      }
+    },
+    {
+      "id": "\/api\/leads\/2854",
+      "type": "Lead",
+      "attributes": {
+        "assigned": false,
+        "read": false,
+        "id": 2854,
+        "flag": "",
+        "name": "test test",
+        "product": [],
+        "zipcode": "35000",
+        "sector": "nc",
+        "entryDate": "2022-09-29T07:44:39Z",
+        "assignement": "\u003Cspan class=\u0022assignement\u0022\u003EChoisir\u003C\/span\u003E",
+        "lastEventLabel": "",
+        "status": "Nouveau"
+      }
+    },
+    {
+      "id": "\/api\/leads\/2856",
+      "type": "Lead",
+      "attributes": {
+        "assigned": false,
+        "read": false,
+        "id": 2856,
+        "flag": "",
+        "name": "LANEZ test",
+        "product": [],
+        "zipcode": "35000",
+        "sector": "nc",
+        "entryDate": "2022-09-29T08:31:53Z",
+        "assignement": "\u003Cspan class=\u0022assignement\u0022\u003EChoisir\u003C\/span\u003E",
+        "lastEventLabel": "",
+        "status": "Nouveau"
+      }
+    },
+    {
+      "id": "\/api\/leads\/3142",
+      "type": "Lead",
+      "attributes": {
+        "assigned": false,
+        "read": false,
+        "id": 3142,
+        "flag": "",
+        "name": "Stark Tony",
+        "product": [],
+        "zipcode": null,
+        "sector": "nc",
+        "entryDate": "2022-10-13T12:41:20Z",
+        "assignement": "\u003Cspan class=\u0022assignement\u0022\u003EChoisir\u003C\/span\u003E",
+        "lastEventLabel": "",
+        "status": "Nouveau"
+      }
+    },
+    {
+      "id": "\/api\/leads\/3143",
+      "type": "Lead",
+      "attributes": {
+        "assigned": false,
+        "read": false,
+        "id": 3143,
+        "flag": "",
+        "name": " ",
+        "product": [],
+        "zipcode": null,
+        "sector": "nc",
+        "entryDate": "2022-10-18T09:50:20Z",
+        "assignement": "\u003Cspan class=\u0022assignement\u0022\u003EChoisir\u003C\/span\u003E",
+        "lastEventLabel": "",
+        "status": "Nouveau"
+      }
+    },
+    {
+      "id": "\/api\/leads\/3144",
+      "type": "Lead",
+      "attributes": {
+        "assigned": false,
+        "read": false,
+        "id": 3144,
+        "flag": "",
+        "name": " ",
+        "product": [],
+        "zipcode": null,
+        "sector": "nc",
+        "entryDate": "2022-10-18T09:50:20Z",
+        "assignement": "\u003Cspan class=\u0022assignement\u0022\u003EChoisir\u003C\/span\u003E",
+        "lastEventLabel": "",
+        "status": "Nouveau"
+      }
+    },
+    {
+      "id": "\/api\/leads\/3145",
+      "type": "Lead",
+      "attributes": {
+        "assigned": false,
+        "read": false,
+        "id": 3145,
+        "flag": "",
+        "name": " ",
+        "product": [],
+        "zipcode": null,
+        "sector": "nc",
+        "entryDate": "2022-10-18T09:50:20Z",
+        "assignement": "\u003Cspan class=\u0022assignement\u0022\u003EChoisir\u003C\/span\u003E",
+        "lastEventLabel": "",
+        "status": "Nouveau"
+      }
+    },
+    {
+      "id": "\/api\/leads\/3168",
+      "type": "Lead",
+      "attributes": {
+        "assigned": false,
+        "read": false,
+        "id": 3168,
+        "flag": "",
+        "name": " Romano Pevrier",
+        "product": [],
+        "zipcode": null,
+        "sector": "nc",
+        "entryDate": "2022-10-18T09:50:20Z",
+        "assignement": "\u003Cspan class=\u0022assignement\u0022\u003EChoisir\u003C\/span\u003E",
+        "lastEventLabel": "",
+        "status": "Nouveau"
+      }
+    },
+    {
+      "id": "\/api\/leads\/3169",
+      "type": "Lead",
+      "attributes": {
+        "assigned": false,
+        "read": false,
+        "id": 3169,
+        "flag": "",
+        "name": " Romano Pevrier",
+        "product": [],
+        "zipcode": null,
+        "sector": "nc",
+        "entryDate": "2022-10-18T09:50:20Z",
+        "assignement": "\u003Cspan class=\u0022assignement\u0022\u003EChoisir\u003C\/span\u003E",
+        "lastEventLabel": "",
+        "status": "Nouveau"
+      }
+    },
+    {
+      "id": "\/api\/leads\/3170",
+      "type": "Lead",
+      "attributes": {
+        "assigned": false,
+        "read": false,
+        "id": 3170,
+        "flag": "",
+        "name": " Romano Pevrier",
+        "product": [],
+        "zipcode": null,
+        "sector": "nc",
+        "entryDate": "2022-10-18T09:50:20Z",
+        "assignement": "\u003Cspan class=\u0022assignement\u0022\u003EChoisir\u003C\/span\u003E",
+        "lastEventLabel": "",
+        "status": "Nouveau"
+      }
+    },
+    {
+      "id": "\/api\/leads\/3171",
+      "type": "Lead",
+      "attributes": {
+        "assigned": false,
+        "read": false,
+        "id": 3171,
+        "flag": "",
+        "name": " Romano Pevrier",
+        "product": [],
+        "zipcode": null,
+        "sector": "nc",
+        "entryDate": "2022-10-18T09:50:20Z",
+        "assignement": "\u003Cspan class=\u0022assignement\u0022\u003EChoisir\u003C\/span\u003E",
+        "lastEventLabel": "",
+        "status": "Nouveau"
+      }
+    }
+  ]
 }
