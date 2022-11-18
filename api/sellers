@@ -1,2 +1,94 @@
 {
+  "links": {
+    "self": "\/api\/sellers"
+  },
+  "meta": {
+    "totalItems": 7
+  },
+  "data": [
+    {
+      "id": "\/api\/users\/48",
+      "type": "User",
+      "attributes": {
+        "_id": 48,
+        "email": "bbernard@yumens.fr",
+        "lastname": "Bernard",
+        "firstname": "Béatrice",
+        "function": "Directrice de clientèle",
+        "fullname": "Béatrice Bernard"
+      }
+    },
+    {
+      "id": "\/api\/users\/30",
+      "type": "User",
+      "attributes": {
+        "_id": 30,
+        "email": "asevestre@yumens.fr",
+        "lastname": "Bizot",
+        "firstname": "Vanessa",
+        "function": "Directrice de Clientèle",
+        "fullname": "Vanessa Bizot"
+      }
+    },
+    {
+      "id": "\/api\/users\/76",
+      "type": "User",
+      "attributes": {
+        "_id": 76,
+        "email": "bcarroi@mv-group.fr",
+        "lastname": "Carroi",
+        "firstname": "Bruno",
+        "function": "Responsable pôle conseil MVG",
+        "fullname": "Bruno Carroi"
+      }
+    },
+    {
+      "id": "\/api\/users\/33",
+      "type": "User",
+      "attributes": {
+        "_id": 33,
+        "email": "ydelahaye@yumens.fr",
+        "lastname": "Delahaye",
+        "firstname": "Yohann",
+        "function": "Directeur général",
+        "fullname": "Yohann Delahaye"
+      }
+    },
+    {
+      "id": "\/api\/users\/23",
+      "type": "User",
+      "attributes": {
+        "_id": 23,
+        "email": "jeanmarie.dupond4@gmail.com",
+        "lastname": "Dupond",
+        "firstname": "Jean-Marie",
+        "function": "Directeur d\u0027Agence",
+        "fullname": "Jean-Marie Dupond"
+      }
+    },
+    {
+      "id": "\/api\/users\/29",
+      "type": "User",
+      "attributes": {
+        "_id": 29,
+        "email": "shousni@yumens.fr",
+        "lastname": "Housni",
+        "firstname": "Sonia",
+        "function": "Directrice Conseil",
+        "fullname": "Sonia Housni"
+      }
+    },
+    {
+      "id": "\/api\/users\/38",
+      "type": "User",
+      "attributes": {
+        "_id": 38,
+        "email": "aprely@yumens.fr",
+        "lastname": "Prely",
+        "firstname": "Arnaud",
+        "function": "Directeur de clientèle",
+        "fullname": "Arnaud Prely"
+      }
+    }
+  ]
 }
