@@ -341,7 +341,7 @@
         "entryDate": "2022-10-18T09:50:20Z",
         "assignement": "\u003Cspan class=\u0022assignement\u0022\u003EChoisir\u003C\/span\u003E",
         "lastEventLabel": "",
-        "status": "Nouveau"
+        "status": "Nouveau",
         "temperature": null
       }
     }
