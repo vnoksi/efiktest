@@ -34,6 +34,7 @@
          "formatter": "temperature",
          "sortable": false,
          "visible": true,
+         "cardVisible": false,
          "field": "temperature"
       },
       {
