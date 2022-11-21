@@ -30,7 +30,7 @@
         "field": "flag"
       },
       {
-         "title": "T°",
+         "title": "T\u00b0",
          "formatter": "temperature",
          "sortable": false,
          "visible": true,
@@ -196,8 +196,8 @@
         "lastEventLabel": "",
         "status": "Nouveau",
         "temperature": {
-            "value": "warm",
-            "label: "Tiède"
+             "value": "warm",
+             "label": "Ti\u00e8de"
          }
       }
     },
@@ -321,8 +321,8 @@
         "lastEventLabel": "",
         "status": "Nouveau",
         "temperature": {
-            "value": "warm",
-            "label: "Tiède"
+             "value": "warm",
+             "label": "Ti\u00e8de"
          }
       }
     },
