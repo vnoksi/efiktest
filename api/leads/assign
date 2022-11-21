@@ -34,7 +34,8 @@
          "formatter": "temperature",
          "sortable": false,
          "visible": true,
-         "field": "temperature"
+         "field": "temperature",
+         "useAsCardTemperature": true 
       },
       {
         "title": "Nom Prénom",
