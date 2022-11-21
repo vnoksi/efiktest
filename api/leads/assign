@@ -30,6 +30,13 @@
         "field": "flag"
       },
       {
+         "title": "T°",
+         "formatter": "temperature",
+         "sortable": false,
+         "visible": true,
+         "field": "temperature"
+      },
+      {
         "title": "Nom Prénom",
         "sortable": true,
         "useAsCardTitle": true,
@@ -112,7 +119,8 @@
         "entryDate": "2022-07-13T08:43:19Z",
         "assignement": "\u003Cspan class=\u0022assignement\u0022\u003EChoisir\u003C\/span\u003E",
         "lastEventLabel": "",
-        "status": "Nouveau"
+        "status": "Nouveau",
+        "temperature": null
       }
     },
     {
@@ -130,7 +138,8 @@
         "entryDate": "2022-07-13T08:53:21Z",
         "assignement": "\u003Cspan class=\u0022assignement\u0022\u003EChoisir\u003C\/span\u003E",
         "lastEventLabel": "Saisie estimation",
-        "status": "Nouveau"
+        "status": "Nouveau",
+        "temperature": null
       }
     },
     {
@@ -166,7 +175,8 @@
         "entryDate": "2022-09-29T08:31:53Z",
         "assignement": "\u003Cspan class=\u0022assignement\u0022\u003EChoisir\u003C\/span\u003E",
         "lastEventLabel": "",
-        "status": "Nouveau"
+        "status": "Nouveau",
+        "temperature": null
       }
     },
     {
@@ -184,7 +194,11 @@
         "entryDate": "2022-10-13T12:41:20Z",
         "assignement": "\u003Cspan class=\u0022assignement\u0022\u003EChoisir\u003C\/span\u003E",
         "lastEventLabel": "",
-        "status": "Nouveau"
+        "status": "Nouveau",
+        "temperature": {
+            "value": "warm",
+            "label: "Tiède"
+         }
       }
     },
     {
@@ -202,7 +216,11 @@
         "entryDate": "2022-10-18T09:50:20Z",
         "assignement": "\u003Cspan class=\u0022assignement\u0022\u003EChoisir\u003C\/span\u003E",
         "lastEventLabel": "",
-        "status": "Nouveau"
+        "status": "Nouveau",
+        "temperature": {
+            "value": "hot",
+            "label: "Chaud"
+         }
       }
     },
     {
@@ -220,7 +238,11 @@
         "entryDate": "2022-10-18T09:50:20Z",
         "assignement": "\u003Cspan class=\u0022assignement\u0022\u003EChoisir\u003C\/span\u003E",
         "lastEventLabel": "",
-        "status": "Nouveau"
+        "status": "Nouveau",
+        "temperature": {
+            "value": "hot",
+            "label: "Chaud"
+         }
       }
     },
     {
@@ -238,7 +260,11 @@
         "entryDate": "2022-10-18T09:50:20Z",
         "assignement": "\u003Cspan class=\u0022assignement\u0022\u003EChoisir\u003C\/span\u003E",
         "lastEventLabel": "",
-        "status": "Nouveau"
+        "status": "Nouveau",
+        "temperature": {
+            "value": "cold",
+            "label: "Froid"
+         }
       }
     },
     {
@@ -256,7 +282,8 @@
         "entryDate": "2022-10-18T09:50:20Z",
         "assignement": "\u003Cspan class=\u0022assignement\u0022\u003EChoisir\u003C\/span\u003E",
         "lastEventLabel": "",
-        "status": "Nouveau"
+        "status": "Nouveau",
+        "temperature": null
       }
     },
     {
@@ -292,7 +319,11 @@
         "entryDate": "2022-10-18T09:50:20Z",
         "assignement": "\u003Cspan class=\u0022assignement\u0022\u003EChoisir\u003C\/span\u003E",
         "lastEventLabel": "",
-        "status": "Nouveau"
+        "status": "Nouveau",
+        "temperature": {
+            "value": "warm",
+            "label: "Tiède"
+         }
       }
     },
     {
@@ -311,6 +342,7 @@
         "assignement": "\u003Cspan class=\u0022assignement\u0022\u003EChoisir\u003C\/span\u003E",
         "lastEventLabel": "",
         "status": "Nouveau"
+        "temperature": null
       }
     }
   ]
