@@ -1,0 +1,106 @@
+{
+    "success": true,
+    "event": {
+        "id": 6834,
+        "owner": {
+            "fullname": "Assistant Recette"
+        },
+        "type": "rdv",
+        "activity": null,
+        "mode": "visio",
+        "label": null,
+        "comment": null,
+        "reporting": null,
+        "address": null,
+        "eventAt": "22-11-2022 12:20",
+        "reportedAt": null,
+        "cancelledAt": null,
+        "statusAfter": null,
+        "honored": false,
+        "amount": null,
+        "title": "Appel visio",
+        "origintitle": "Appel visio",
+        "vueStatus": "missed",
+        "redate": 0,
+        "style": "warning",
+        "fastedit": false,
+        "calendarLinks": [
+            {
+                "name": "Google Agenda",
+                "url": "https:\/\/www.google.com\/calendar\/render?action=TEMPLATE\u0026text=test%20LANEZ%20%2F%20Appel%20visio\u0026details=%3Cb%3EType%20de%20Rendez-vous%3C%2Fb%3E%3A%20Appel%20visio%0A%0A%3Ca%20href%3D%22https%3A%2F%2Fpreprod.efik.fr%2Fapp%2Fleads%3FreloadId%3D2856%22%3EVoir%20la%20fiche%20sur%20Efik%3C%2Fa%3E\u0026dates=20221122T112000Z%2F20221122T122000Z"
+            },
+            {
+                "name": "ICS",
+                "url": "\/app\/lead\/2856\/event\/6834\/ics\/generate"
+            },
+            {
+                "name": "Office 365",
+                "url": "https:\/\/outlook.office.com\/calendar\/0\/deeplink\/compose?path=%2Fcalendar%2Faction%2Fcompose\u0026rru=addevent\u0026subject=test%20LANEZ%20%2F%20Appel%20visio\u0026body=%3Cb%3EType%20de%20Rendez-vous%3C%2Fb%3E%3A%20Appel%20visio%3Cbr%20%2F%3E%0A%3Cbr%20%2F%3E%0A%3Ca%20href%3D%22https%3A%2F%2Fpreprod.efik.fr%2Fapp%2Fleads%3FreloadId%3D2856%22%3EVoir%20la%20fiche%20sur%20Efik%3C%2Fa%3E\u0026startdt=2022-11-22T11%3A20%3A00%2B00%3A00\u0026enddt=2022-11-22T12%3A20%3A00%2B00%3A00\u0026online=yes"
+            },
+            {
+                "name": "Outlook",
+                "url": "https:\/\/outlook.live.com\/calendar\/0\/deeplink\/compose?path=%2Fcalendar%2Faction%2Fcompose\u0026rru=addevent\u0026subject=test%20LANEZ%20%2F%20Appel%20visio\u0026body=%3Cb%3EType%20de%20Rendez-vous%3C%2Fb%3E%3A%20Appel%20visio%3Cbr%20%2F%3E%0A%3Cbr%20%2F%3E%0A%3Ca%20href%3D%22https%3A%2F%2Fpreprod.efik.fr%2Fapp%2Fleads%3FreloadId%3D2856%22%3EVoir%20la%20fiche%20sur%20Efik%3C%2Fa%3E\u0026startdt=2022-11-22T11%3A20%3A00%2B00%3A00\u0026enddt=2022-11-22T12%3A20%3A00%2B00%3A00\u0026online=yes"
+            }
+        ]
+    },
+    "lead": {
+        "brand": null,
+        "agency": null,
+        "amount": 0,
+        "contactedAt": null,
+        "lastEventAt": "2022-11-22T12:20:25+01:00",
+        "quotedAt": null,
+        "lastRdvAt": "2022-11-22T12:20:25+01:00",
+        "lastRdvStatus": "missed",
+        "seller": null,
+        "sql": false,
+        "archived": false,
+        "isSpam": false,
+        "nbRdv": 1
+    },
+    "leadEvents": [
+        {
+            "id": 6834,
+            "owner": {
+                "fullname": "Assistant Recette"
+            },
+            "type": "rdv",
+            "activity": null,
+            "mode": "visio",
+            "label": null,
+            "comment": null,
+            "reporting": null,
+            "address": null,
+            "eventAt": "22-11-2022 12:20",
+            "reportedAt": null,
+            "cancelledAt": null,
+            "statusAfter": null,
+            "honored": false,
+            "amount": null,
+            "title": "Appel visio",
+            "origintitle": "Appel visio",
+            "vueStatus": "missed",
+            "redate": 0,
+            "style": "warning",
+            "fastedit": false,
+            "calendarLinks": [
+                {
+                    "name": "Google Agenda",
+                    "url": "https:\/\/www.google.com\/calendar\/render?action=TEMPLATE\u0026text=test%20LANEZ%20%2F%20Appel%20visio\u0026details=%3Cb%3EType%20de%20Rendez-vous%3C%2Fb%3E%3A%20Appel%20visio%0A%0A%3Ca%20href%3D%22https%3A%2F%2Fpreprod.efik.fr%2Fapp%2Fleads%3FreloadId%3D2856%22%3EVoir%20la%20fiche%20sur%20Efik%3C%2Fa%3E\u0026dates=20221122T112000Z%2F20221122T122000Z"
+                },
+                {
+                    "name": "ICS",
+                    "url": "\/app\/lead\/2856\/event\/6834\/ics\/generate"
+                },
+                {
+                    "name": "Office 365",
+                    "url": "https:\/\/outlook.office.com\/calendar\/0\/deeplink\/compose?path=%2Fcalendar%2Faction%2Fcompose\u0026rru=addevent\u0026subject=test%20LANEZ%20%2F%20Appel%20visio\u0026body=%3Cb%3EType%20de%20Rendez-vous%3C%2Fb%3E%3A%20Appel%20visio%3Cbr%20%2F%3E%0A%3Cbr%20%2F%3E%0A%3Ca%20href%3D%22https%3A%2F%2Fpreprod.efik.fr%2Fapp%2Fleads%3FreloadId%3D2856%22%3EVoir%20la%20fiche%20sur%20Efik%3C%2Fa%3E\u0026startdt=2022-11-22T11%3A20%3A00%2B00%3A00\u0026enddt=2022-11-22T12%3A20%3A00%2B00%3A00\u0026online=yes"
+                },
+                {
+                    "name": "Outlook",
+                    "url": "https:\/\/outlook.live.com\/calendar\/0\/deeplink\/compose?path=%2Fcalendar%2Faction%2Fcompose\u0026rru=addevent\u0026subject=test%20LANEZ%20%2F%20Appel%20visio\u0026body=%3Cb%3EType%20de%20Rendez-vous%3C%2Fb%3E%3A%20Appel%20visio%3Cbr%20%2F%3E%0A%3Cbr%20%2F%3E%0A%3Ca%20href%3D%22https%3A%2F%2Fpreprod.efik.fr%2Fapp%2Fleads%3FreloadId%3D2856%22%3EVoir%20la%20fiche%20sur%20Efik%3C%2Fa%3E\u0026startdt=2022-11-22T11%3A20%3A00%2B00%3A00\u0026enddt=2022-11-22T12%3A20%3A00%2B00%3A00\u0026online=yes"
+                }
+            ]
+        }
+    ]
+}
