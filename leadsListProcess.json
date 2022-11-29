@@ -1,7 +1,7 @@
 {
    "leads":[
       {
-         "id":"lead1",
+         "id":"\/api\/leads\/2854",
          "date":"2022-05-13T12:17:40.000Z",
          "sql": true,
          "status": "Devis envoyé",
@@ -16,7 +16,7 @@
          "lastEventInDays": 7
       },
       {
-         "id":"lead2",
+         "id":"\/api\/leads\/1995",
          "date":"2022-04-15T12:17:40.000Z",
          "sql": false,
          "status": "Attribué",
@@ -31,7 +31,7 @@
          "lastEventInDays": 88
       },
       {
-         "id":"lead3",
+         "id":"\/api\/leads\/2856",
          "date":"2022-02-15T13:17:40.000Z",
          "sql": false,
          "status": "Devis envoyé",
