@@ -1,0 +1,49 @@
+{
+  "formElts": [
+    {
+      "id": "statut",
+      "name": "statut",
+      "type": "select",
+      "label": "Statut",
+      "value": [],
+      "validationRules": {
+        "required": true
+      },
+      "config": {
+        "mode": "multiple",
+        "options": [
+          {
+            "label": "Attribué",
+            "value": "assigned"
+          },
+          {
+            "label": "Devis envoyé",
+            "value": "quoted"
+          }
+        ]
+      }
+    },
+    {
+      "id": "date",
+      "name": "date",
+      "type": "datepicker",
+      "label": "Dates",
+      "value": "",
+      "config": {
+        "range-start": "",
+        "range-end": "",
+        "mode": "range"
+      }
+    },
+    {
+      "id": "monText",
+      "name": "monText",
+      "type": "text",
+      "label": "Text",
+      "value": "Mon text",
+      "validationRules": {
+        "required": true
+      }
+    }
+  ]
+}
