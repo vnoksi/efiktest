@@ -1,0 +1,49 @@
+{
+   "leads":[
+      {
+         "id":"\/api\/leads\/2854",
+         "date":"2022-05-13T12:17:40.000Z",
+         "sql": true,
+         "status": "Devis envoyé",
+         "statusValue": "quoted",
+         "contactInformation":{
+            "lastName":"Durant",
+            "firstName":"Jean",
+            "phone":"",
+            "email":""
+         },
+         "lastEvent": "7 jour(s)",
+         "lastEventInDays": 7
+      },
+      {
+         "id":"\/api\/leads\/1995",
+         "date":"2022-04-15T12:17:40.000Z",
+         "sql": false,
+         "status": "Attribué",
+         "statusValue": "assigned",
+         "contactInformation":{
+            "lastName":"",
+            "firstName":"",
+            "phone":"02 02 02 02 02",
+            "email":"test@test.fr"
+         },
+         "lastEvent": "88 jour(s)",
+         "lastEventInDays": 88
+      },
+      {
+         "id":"\/api\/leads\/2856",
+         "date":"2022-02-15T13:17:40.000Z",
+         "sql": false,
+         "status": "Devis envoyé",
+         "statusValue": "quoted",
+         "contactInformation":{
+            "lastName":"Poilau",
+            "firstName":"Dos",
+            "phone":"01 01 01 01 01",
+            "email":""
+         },
+         "lastEvent": "121 jour(s)",
+         "lastEventInDays": 121
+      }
+   ]
+}
