@@ -1,4 +1,60 @@
 {
   "success": true,
-  "html": "<divclass=\"partner-ad\"><divclass=\"partner-ad__visual\"><divclass=\"swiper-container\"><divclass=\"swiper-wrapper\"><divclass=\"swiper-slide\"><imgsrc=\"fileadmin/contributions/images/accomodation/camping1-sm.jpg\"alt=\"\"></div><divclass=\"swiper-slide\"><imgsrc=\"fileadmin/contributions/images/accomodation/camping2-sm.jpg\"alt=\"\"></div><divclass=\"swiper-slide\"><imgsrc=\"fileadmin/contributions/images/accomodation/camping3-sm.jpg\"alt=\"\"></div><divclass=\"swiper-slide\"><imgsrc=\"fileadmin/contributions/images/accomodation/camping4-sm.jpg\"alt=\"\"></div><divclass=\"swiper-slide\"><imgsrc=\"fileadmin/contributions/images/accomodation/camping5-sm.jpg\"alt=\"\"></div><divclass=\"swiper-slide\"><imgsrc=\"fileadmin/contributions/images/accomodation/camping6-sm.jpg\"alt=\"\"></div></div><divclass=\"swiper-button-prev\"></div><divclass=\"swiper-button-next\"></div></div></div><div><h3>Letitredel'offredupartenaire</h3><p>Loremipsumdolorsitamet,consecteturadipisicingelit.Aliquamdeleniti<strong>deseruntdoloremhicimpedit</strong>nostrumodioquidemsaepeutvoluptate.</p><p>Loremipsumdolorsitamet,consecteturadipisicingelit.Beataedignissimoseosquorecusandaesimilique?Debitiseligendiexininciduntipsam,quaerat.Aliasaliquidaperiamconsecteturculpacupiditateducimusinciduntnullaquaeratrepudiandaesimilique!Dignissimosearumerrorfugiatnonprovidentrepudiandae!</p></div><hr><divclass=\"partner-ad__info\"><div><h4>Adressedel'activité</h4><p>ruedutest<br>deuxiemeimmeubleàgauche<br>64200Biarrtiz</p></div><div><h4>Contact</h4><div><strong>Email:</strong>contact@monsite.fr</div><div><strong>Téléphone:</strong><ahref=\"tel:+33123456789\">0123456789</a></div></div></div><divclass=\"btn-containerjustify-content-centermt-6\"><ahref=\"\"class=\"btnbtn-primary\"><span>Jeprofitedel&#x27;offre</span></a></div></div>"
+  "html": "<div class=\"partner-ad\">
+    <div class=\"partner-ad__visual\">
+        <div class=\"swiper-container\">
+            <div class=\"swiper-wrapper\">
+                <div class=\"swiper-slide\">
+                    <img src=\"fileadmin/contributions/images/accomodation/camping1-sm.jpg\" alt=\"\">
+                </div>
+                <div class=\"swiper-slide\">
+                    <img src=\"fileadmin/contributions/images/accomodation/camping2-sm.jpg\" alt=\"\">
+                </div>
+                <div class=\"swiper-slide\">
+                    <img src=\"fileadmin/contributions/images/accomodation/camping3-sm.jpg\" alt=\"\">
+                </div>
+                <div class=\"swiper-slide\">
+                    <img src=\"fileadmin/contributions/images/accomodation/camping4-sm.jpg\" alt=\"\">
+                </div>
+                <div class=\"swiper-slide\">
+                    <img src=\"fileadmin/contributions/images/accomodation/camping5-sm.jpg\" alt=\"\">
+                </div>
+                <div class=\"swiper-slide\">
+                    <img src=\"fileadmin/contributions/images/accomodation/camping6-sm.jpg\" alt=\"\">
+                </div>
+            </div>
+            <div class=\"swiper-button-prev\"></div>
+            <div class=\"swiper-button-next\"></div>
+        </div>
+    </div>
+    <div>
+        <h3>Le titre de l'offre du partenaire</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam deleniti
+            <strong>deserunt dolorem hic impedit</strong> nostrum odio quidem saepe ut voluptate.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dignissimos eos quo recusandae similique? Debitis eligendi ex in incidunt ipsam, quaerat. Alias aliquid aperiam consectetur culpa cupiditate ducimus incidunt nulla quaerat repudiandae similique! Dignissimos earum error fugiat non provident repudiandae!</p>
+    </div>
+    <hr>
+    <div class=\"partner-ad__info\">
+        <div>
+            <h4>Adresse de l'activité</h4>
+            <p>rue du test
+                <br>deuxieme immeuble à gauche
+                <br>64200 Biarrtiz</p>
+        </div>
+        <div>
+            <h4>Contact</h4>
+            <div>
+                <strong>Email : </strong>contact@monsite.fr</div>
+            <div>
+                <strong>Téléphone : </strong>
+                <a href=\"tel:+33123456789\">01 23 45 67 89</a>
+            </div>
+        </div>
+    </div>
+    <div class=\"btn-container justify-content-center mt-6\">
+        <a href=\"\" class=\"btn btn-primary \">
+            <span>Je profite de l&#x27;offre</span>
+        </a>
+    </div>
+</div>"
 }
